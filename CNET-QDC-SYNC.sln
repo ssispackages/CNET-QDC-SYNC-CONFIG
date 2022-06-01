@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "CNET-QDC-SYNC", "CNET-QDC-SYNC\CNET-QDC-SYNC.dtproj", "{CB6E7D28-2F1E-42F0-B20A-D282519C916F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB6E7D28-2F1E-42F0-B20A-D282519C916F}.Development|Default.ActiveCfg = Development
+		{CB6E7D28-2F1E-42F0-B20A-D282519C916F}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {759BB52D-FA45-4C35-ADC9-F69913C665D5}
+	EndGlobalSection
+EndGlobal

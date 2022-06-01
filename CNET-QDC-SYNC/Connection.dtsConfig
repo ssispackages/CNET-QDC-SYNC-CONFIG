@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="PIONE0\palani" GeneratedFromPackageName="CNETtoQDC_Sync_Incre_Update" GeneratedFromPackageID="{A6FCF90B-CC89-47DC-9E09-36F5B76CA205}" GeneratedDate="1/10/2022 10:35:00 AM"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[Delete-QPCCommonCatalog].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>
+			Data Source=qoiprprod.database.windows.net;User ID=qoipradmin;Password=WRBMZf2!3$^myK;Initial Catalog=EvolveOnline;Provider=SQLNCLI11.1;
+			Auto Translate=False;
+		</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DestinationDBConn-QDC].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>
+			Data Source=qoipr.database.windows.net;User ID=qoipradmin;Password=QoipR242002;Initial Catalog=QDC;Provider=MSOLEDBSQL.1;
+		Persist Security Info=False;Application Name=SSIS-{D1959247-5B20-49BF-9DC1-08641718D32A}DestinationDBConn-QDC;
+	</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[SourceDBConn-CNET].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>
+			Data Source=qoipr.database.windows.net;User ID=qoipradmin;Initial Catalog=CNET;Password=QoipR242002;
+			Provider=MSOLEDBSQL.1;Persist Security Info=False;Application Name=SSIS-{2775DAD6-5BBD-4847-983A-45311F96F2D8}SourceDBConn-CNET;
+			Initial File Name=;Server SPN=;Authentication=;Access Token=;
+		</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>
